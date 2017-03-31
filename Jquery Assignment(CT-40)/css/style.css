@@ -1,0 +1,74 @@
+.weather-box{
+    position: fixed;
+    border: 3px solid #444;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 25px;
+    text-align: center;
+}
+.twitter-share-button{
+    padding: 10px 20px;
+    background: #5BC0DE;
+    border-radius: 5px;
+}
+/*** Password Checker Start ***/
+h2{
+padding-top: 10px;
+}
+#content {
+	margin-left: 57px;
+	margin-top: 40px;
+}
+#password-checker label{
+	margin-right:5px;
+}
+#password-checker input {
+	padding: 10px 15px;
+	border: 1px solid #d5d9da;
+	box-shadow: 0 0 3px #0E34F5 inset;
+	width: 272px;
+	font-size: 1em;
+	height: 35px;
+}
+#password-checker .short{
+    font-weight:bold;
+	color:#FF0000;
+	font-size:larger;
+}
+#password-checker .weak{
+    font-weight:bold;
+	color:orange;
+	font-size:larger;
+}
+#password-checker .good{
+    font-weight:bold;
+	color:#2D98F3;
+	font-size:larger;
+}
+#password-checker .strong{
+    font-weight:bold;
+	color: limegreen;
+	font-size:larger;
+}
+/*** Password Checker End ***/
+
+/*** Background Color Change ***/
+.wrapper{
+    
+}
+.header h1{
+    background: #1C92BE;
+    text-align: center;
+    padding: 25px;
+}
+.content-body h3{
+    background: #1C92BE;
+    text-align: center;
+    padding: 25px;
+}
+.content-body p{
+    background: #1C92BE;
+    text-align: center;
+    padding: 25px;
+}
